@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display =  'none';
+                } else{document.querySelector(".menu nav ul").style.display =  'flex';
+                }
+            })
+        }
+    </script>
+    <title>Medicenter</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/logo.png">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li><a href="#">SERVIÇOS</a></li>
+                        <li><a href="#">CONTATO</a></li>
+                        <li><a href="#">NOTÍCIAS</a></li>
+                        <li><a href="#">SOBRE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Uma Clínica Médica Acessível</h1>
+                <h2>A Medicenter dispões dos melhores profissionais do mercado.</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Casos de Emergência</div>
+                    <div class="banner_desc"> Facere a quisquam similique nesciunt ut iste dolorem, tempora vero optio repellat exercitationem, natus corporis ea quam fugiat tempore.</div>
+                    <a href="#">LEIA MAIS</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Horários Médicos</div>
+                    <div class="banner_desc"> aliquid omnis ipsa! Beatae perspiciatis molestiae delectus incidunt omnis asperiores harum ipsa ea?</div>
+                    <a href="#">LEIA MAIS</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Horário de Funcionamento</div>
+                    <div class="agenda">
+                        <h2>Segunda-Sexta</h2>
+                        <h2>8:00 - 17:00</h2>
+                    </div>
+                    <div class="agenda">
+                        <h2>Sábado</h2>
+                        <h2>9:30 - 17:30</h2>
+                    </div>
+                    <div class="agenda">
+                        <h2>Domingo</h2>
+                        <h2>9:30 - 15:00</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Últimas Noticías</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">21 FEV 22</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/cigarro.jpg"/>
+                                </div>
+                                <div class="news_title">
+                                    Consequências do Fumo.
+                                </div>
+                                <div class="news_resume">
+                                    O tabagismo é uma doença (dependência de nicotina) que tem relação com aproximadamente 50 enfermidades, dentre elas vários tipos de câncer (pulmão, laringe, faringe, esôfago, estômago, pâncreas, fígado, rim, bexiga, colo de útero, leucemia), doenças do aparelho respiratório (enfisema pulmonar, bronquite crônica, asma, ...
+
+                                </div>
+                            </a>    
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">21 FEV 22</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/coração.jpg"/>
+                                </div>
+                                <div class="news_title">
+                                    Como saber se é ansiedade ou problema cardíaco?
+                                </div>
+                                <div class="news_resume">
+                                    ...É comum ainda que a dor irradie para o braço esquerdo. Já na crise de ansiedade, a dor no peito costuma vir em ondas de vai e vem. Além do mais, é seguida de uma sensação de ardor (formigamento) que pode atingir não só o braço esquerdo como também o direito, pernas e dedos...
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">21 FEV 22</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img id="longevidade" src="assets/images/longevidade.jpg"/>
+                                </div>
+                                <div class="news_title">
+                                    O segredo para Longevidade.
+                                </div>
+                                <div class="news_resume">
+                                    No mundo todo, as pessoas estão vivendo mais, de acordo com o relatório anual Worth Health Statistics 2019, publicado pela ONU (Organização das Nações Unidas). No Brasil, o documento mostra que a expectativa de vida ao nascer passou de 69,9 para 75,1 anos entre 2000 e 2016, e a esperança de vida saudável ao nascer (número de anos que se espera viver em plena saúde) subiu de 61,5 para 66 anos...
+                                    
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">21 FEV 22</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/diabetes.jpg"/>
+                                </div>
+                                <div class="news_title">
+                                    Qual método de revascularização escolher no paciente diabético?
+                                </div>
+                                <div class="news_resume">
+                                    O diabetes é um dos fatores de risco mais importantes para doença coronária aterosclerótica e entre os pacientes com síndrome coronariana aguda (SCA), 37% são diabéticos. Esses pacientes geralmente têm doença mais extensa e mais complexa, com maior ocorrência de placas em óstio e bifurcações...
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departamentos Médicos
+                        </div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="square1"><a href=""><h2 class="departamentos">Odontologia</h2></a></div>
+                        <div class="square1"><a href=""><h2 class="departamentos">Clínica Geral</h2></a></div>
+                        <div class="square1"><a href=""><h2 class="departamentos">Pediatria</h2></a></div>
+                        <div class="square1"><a href=""><h2 class="departamentos">Ortopedia</h2></a></div>
+                        <div class="square1"><a href=""><h2 class="departamentos">Cardiologia</h2></a></div>
+                        <div class="square1"><a href=""><h2 class="departamentos">Neurologia</h2></a></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Marque uma Consulta</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body"><h2 class="marcar-text">Marque sua Consulta hoje mesmo na Medicenter, aqui sua Saúde importa!
+                    </h2>
+                    </div>
+                    <div class="widget_contact">
+                        <div class="widget_contact_info">
+                            <b>Contato: </b>(83) 22222-2222
+                        </div>
+                    </div>
+                    <div class="widget_contact">
+                        <div class="widget_contact_info">
+                            <b>Email: </b>medicentergroup@med.com
+                        </div>
+                    </div>
+                    <div class="widget_contact">
+                        <div class="widget_contact_info">
+                            <b>Cep: </b>077777-777
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm1">
+
+                </div>
+                <div class="fm2">
+
+                </div>
+                <div class="fm3">
+
+                </div>
+
+            </div>
+        
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Clínica Medicenter
+                            </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body footer_text">
+
+                            <div class="address1">
+                                <h4>33 Farlane Street</h4>
+                                <h4>Keilor East</h4>
+                                <h4>VIC 3033, Australia</h4>
+                                <h4>+123 655 655</h4>
+                                <h4>+123 755 755</h4>
+                                <h4 id="email">medicenter@gmail.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Últimos Posts
+                            </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body latest_postcontent">
+
+                            <div class="latest_posts">
+                                <h4>Mauris adipiscing mauris fringilla turpis interdum, Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4>
+                                <h4><b>6 anos atrás</b></h4>
+                            </div>
+
+                            <div class="latest_posts">
+                                <h4>Mauris adipiscing mauris fringilla turpis </h4>
+                                <h4><b>6 anos atrás</b></h4>
+                            </div>
+
+                            <div class="latest_posts">
+                                <h4>Mauris adipiscing mauris fringilla turpis interdumLorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+                                <h4><b>6 anos atrás</b></h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Últimos Tweets
+                            </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body latest_tweetscontent">
+                            <div class="latest_tweets"><h4><b>⇨</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates sint nihil, possimus aspernatur suscipit doloribus perferendis hic excepturi tempora autem, voluptatum.</h4>
+                            <h4><b>4 dias atrás</b></h4></div>
+
+                            <div class="latest_tweets"><h4><b>⇨</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates sint nihil.</h4>
+                            <h4><b>4 dias atrás</b></h4></div>
+
+                            <div class="latest_tweets"><h4><b>⇨</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates sint nihil, possimus aspernatur suscipit doloribus perferendis hic excepturi tempora autem, voluptatum vero facilis.!</h4>
+                            <h4><b>4 dias atrás</b></h4></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Copyright - Todos os direitos reservados 
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
